@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pythonweb-hw10"
+version = "0.1.0"
+description = ""
+authors = ["Basil Egupov <basilegupov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pythonweb_hw10"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+pillow = "^10.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
